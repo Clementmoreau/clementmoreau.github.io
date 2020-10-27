@@ -1,0 +1,16 @@
+body
+{
+	max-width: 800px;
+	margin: 50px auto 50px auto;
+}
+
+header
+{
+	text-align: center;
+}
+
+section p
+{
+	text-align: justify;
+}
+
