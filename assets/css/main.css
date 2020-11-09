@@ -28,13 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-if (this._isSafari && this.root) {
-  this.root.querySelectorAll('*').forEach(function(el) {
-    el.style['-webkit-backface-visibility'] = 'visible';
-    el.style['-webkit-backface-visibility'] = '';
-  );
-}
-
 body {
 	line-height: 1;
 }
