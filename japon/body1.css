@@ -1,0 +1,20 @@
+body
+{
+	max-width: 70%;
+	margin: 50px auto 50px auto;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 18pt;
+    background-color: #FAFAFA;
+}
+
+header
+{
+	text-align: center;
+}
+
+section p
+{
+	text-align: center;
+}
+
