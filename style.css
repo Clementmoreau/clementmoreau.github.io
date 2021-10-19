@@ -1,0 +1,19 @@
+body
+{
+	max-width: 800px;
+	margin: 50px auto 50px auto;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif
+}
+
+header
+{
+	text-align: center;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+section p
+{
+	text-align: justify;
+	
+}
+
