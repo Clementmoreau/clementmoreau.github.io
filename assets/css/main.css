@@ -157,13 +157,17 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	a.image {
+		border-bottom-color: transparent;
+	}
+
 		a:hover {
 			border-bottom-color: transparent;
 			color: #555555;
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #000000;
 		font-weight: bold;
 	}
 
@@ -321,7 +325,7 @@ input, select, textarea {
 		text-align: left;
 	}
 
-	.align-center {
+	.ac {
 		text-align: center;
 	}
 
@@ -2563,6 +2567,10 @@ input, select, textarea {
 
 /* Image */
 
+img.shadow {
+   filter: drop-shadow(2px 3px 2px #999999);
+}
+
 	.image {
 		border-radius: 0.25em;
 		border: 0;
@@ -2652,6 +2660,10 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+		li.ac {
+		text-align: center;
+	}
+
 	dl {
 		margin: 0 0 2em 0;
 	}
@@ -2673,6 +2685,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		justify-content: center;
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
