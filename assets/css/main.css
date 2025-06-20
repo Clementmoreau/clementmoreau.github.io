@@ -2542,6 +2542,10 @@ input, select, textarea {
 			 height: 100%;
 			 border-radius: 50%;
 			 object-fit: cover;
+			 display: block;
+ 			 position: absolute;
+  			 top: 0;
+  			 left: 0;
 		}
 
 			.icon.major:before {
