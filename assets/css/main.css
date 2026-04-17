@@ -3936,3 +3936,21 @@ img.shadow {
 			}
 
 		}
+
+
+
+.container {
+    display: flex;
+    align-items: center; /* Vertically centers the flag with the text */
+    gap: 1.5em;          /* Adds space between the flag and the paragraph */
+    margin-bottom: 2em;  /* Matches your existing paragraph bottom margin */
+}
+
+.lgbtq-flag {
+    height: 3em;         /* Adjust this to match the approximate height of your paragraph */
+    width: auto;         /* Maintains aspect ratio */
+}
+
+.container p {
+    margin-bottom: 0;    /* Removes bottom margin from the paragraph inside the container */
+}
