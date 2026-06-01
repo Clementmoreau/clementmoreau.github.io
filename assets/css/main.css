@@ -1822,6 +1822,35 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* Abstract */
+
+	details.abstract {
+		margin: 0 0 1.5em 0;
+	}
+
+		details.abstract summary {
+			border: solid 1px rgba(53, 113, 199, 0.35);
+			border-radius: 0.25em;
+			color: #3571c7;
+			cursor: pointer;
+			display: inline-block;
+			font-weight: bold;
+			margin: 0 0 1em 0;
+			padding: 0.4em 0.8em;
+		}
+
+			details.abstract:not([open]) summary {
+				margin-bottom: 0;
+			}
+
+			details.abstract summary:hover {
+				border-color: rgba(53, 113, 199, 0.85);
+			}
+
+		details.abstract > :last-child {
+			margin-bottom: 0;
+		}
+
 /* Button */
 
 	input[type="submit"],
